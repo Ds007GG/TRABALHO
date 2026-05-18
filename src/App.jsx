@@ -1,9 +1,6 @@
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import Footer from "./components/Footer";
-import ServiceCard from "./components/ServiceCard";
-
-import services from "./data/services";
 
 function App() {
   return (
@@ -13,6 +10,7 @@ function App() {
       <HeroSection />
 
       <section className="px-6 py-20">
+        
         <h2 className="text-4xl font-bold text-center mb-12">
           Serviços Digitais
         </h2>
@@ -25,10 +23,11 @@ function App() {
               description={service.description}
               icon={service.icon}
             />
+
           ))}
         </div>
       </section>
-
+      <HeroSection />
       <Footer />
     </div>
   );
