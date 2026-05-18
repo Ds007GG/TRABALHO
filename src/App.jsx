@@ -1,34 +1,50 @@
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import Footer from "./components/Footer";
+import FeaturesSection from "./components/FeaturesSection";
+import services from "./data/services";
+import ServiceCard from "./components/ServiceCard";
 
 function App() {
   return (
-    <div className="bg-[#09090B] text-white min-h-screen">
+    <div
+      className="bg-white"
+      style={{ minHeight: "100vh", scrollBehavior: "smooth" }}
+    >
       <Header />
 
-      <HeroSection />
+      <section id="home">
+        <HeroSection />
+      </section>
 
-      <section className="px-6 py-20">
-        
-        <h2 className="text-4xl font-bold text-center mb-12">
-          Serviços Digitais
-        </h2>
+      <section id="servicos" className="py-5 bg-light">
+        <div className="container">
+          <h2
+            className="text-center mb-5 text-dark fw-bold"
+            style={{ fontSize: "2rem" }}
+          >
+            Serviços Digitais
+          </h2>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {services.map((service) => (
-            <ServiceCard
-              key={service.id}
-              title={service.title}
-              description={service.description}
-              icon={service.icon}
-            />
-
-          ))}
+          <div className="row g-4">
+            {services.map((service) => (
+              <div key={service.id} className="col-12 col-md-6 col-lg-3">
+                <ServiceCard
+                  title={service.title}
+                  description={service.description}
+                  icon={service.icon}
+                />
+              </div>
+            ))}
+          </div>
         </div>
       </section>
-      <HeroSection />
-      <Footer />
+
+      <FeaturesSection />
+
+      <section id="contato">
+        <Footer />
+      </section>
     </div>
   );
 }

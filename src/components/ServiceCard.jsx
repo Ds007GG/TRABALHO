@@ -1,15 +1,13 @@
 function ServiceCard({ title, description, icon: Icon }) {
   return (
-    <div className="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 hover:border-violet-500 transition">
-      <Icon className="text-violet-400 mb-4" size={38} />
-
-      <h3 className="text-xl font-semibold mb-3">
-        {title}
-      </h3>
-
-      <p className="text-zinc-400">
-        {description}
-      </p>
+    <div className="card h-100 border-0 shadow-sm bg-white">
+      <div className="card-body text-center">
+        <div className="mb-3" style={{ color: "#0066cc", fontSize: "2.5rem" }}>
+          <Icon size={50} />
+        </div>
+        <h5 className="card-title text-dark fw-bold">{title}</h5>
+        <p className="card-text text-secondary">{description}</p>
+      </div>
     </div>
   );
 }

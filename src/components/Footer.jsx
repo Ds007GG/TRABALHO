@@ -1,7 +1,55 @@
 function Footer() {
   return (
-    <footer className="border-t border-zinc-800 py-8 text-center text-zinc-500">
-      © 2026 NexaFlow
+    <footer className="border-top py-5 bg-light">
+      <div className="container">
+        <div className="row mb-4">
+          <div className="col-12 col-md-4 mb-3">
+            <h5 className="fw-bold text-dark">NexaFlow</h5>
+            <p className="text-secondary" style={{ fontSize: "0.9rem" }}>
+              Soluções digitais inovadoras para transformar seu negócio.
+            </p>
+          </div>
+          <div className="col-12 col-md-4 mb-3">
+            <h6 className="fw-bold text-dark">Navegação</h6>
+            <ul className="list-unstyled" style={{ fontSize: "0.9rem" }}>
+              <li>
+                <a href="#" className="text-decoration-none text-secondary">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-decoration-none text-secondary">
+                  Serviços
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-decoration-none text-secondary">
+                  Contato
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div className="col-12 col-md-4 mb-3">
+            <h6 className="fw-bold text-dark">Contato</h6>
+            <p
+              className="text-secondary"
+              style={{ fontSize: "0.9rem", marginBottom: "0.5rem" }}
+            >
+              Email: contato@nexaflow.com
+            </p>
+            <p className="text-secondary" style={{ fontSize: "0.9rem" }}>
+              Telefone: (11) 9999-9999
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div
+          className="text-center text-secondary"
+          style={{ fontSize: "0.9rem" }}
+        >
+          © 2026 NexaFlow. Todos os direitos reservados.
+        </div>
+      </div>
     </footer>
   );
 }
