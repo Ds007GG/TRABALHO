@@ -1,4 +1,4 @@
-# NexaFlow - Soluções Digitais
+# R2D2 Tecnologias - Soluções Digitais
 
 ## Alunos: 
 * Demetrio da Silva Santos
@@ -7,7 +7,7 @@
 
 ##  Descrição do Projeto
 
-NexaFlow é uma landing page  desenvolvida em React que apresenta soluções digitais inovadoras para empresas. A aplicação da visibilidade a serviços de tecnologia com design responsivo, componentes reutilizáveis e navegação intuitiva.
+R2D2 Tecnologias é uma landing page  desenvolvida em React que apresenta soluções digitais inovadoras para empresas. A aplicação da visibilidade a serviços de tecnologia com design responsivo, componentes reutilizáveis e navegação intuitiva.
 
 ### Principais Funcionalidades
 

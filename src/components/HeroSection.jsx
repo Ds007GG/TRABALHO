@@ -8,7 +8,9 @@ function HeroSection() {
         paddingBottom: "80px",
       }}
     >
-      <h2 className="display-4 fw-bold mb-4 text-dark">
+      <h2 className="display-2 fw-bold mb-4 text-dark">Bem vindo ao futuro!</h2>
+
+      <h2 className="display-6 fw-normal mb-4 text-dark">
         Soluções Digitais Para Empresas Modernas
       </h2>
 

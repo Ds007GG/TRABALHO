@@ -32,7 +32,7 @@ function FeaturesSection() {
     >
       <div className="container">
         <h2 className="text-center mb-5 fw-bold" style={{ fontSize: "2rem" }}>
-          Por Que Escolher NexaFlow?
+          Por Que Escolher a R2D2 Tecnologias?
         </h2>
 
         <div className="row g-4">

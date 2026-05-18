@@ -4,7 +4,7 @@ function Footer() {
       <div className="container">
         <div className="row mb-4">
           <div className="col-12 col-md-4 mb-3">
-            <h5 className="fw-bold text-dark">NexaFlow</h5>
+            <h5 className="fw-bold text-dark">R2D2 Tecnologias</h5>
             <p className="text-secondary" style={{ fontSize: "0.9rem" }}>
               Soluções digitais inovadoras para transformar seu negócio.
             </p>
@@ -35,10 +35,10 @@ function Footer() {
               className="text-secondary"
               style={{ fontSize: "0.9rem", marginBottom: "0.5rem" }}
             >
-              Email: contato@nexaflow.com
+              Email: contato@r2d2tecnologias.com
             </p>
             <p className="text-secondary" style={{ fontSize: "0.9rem" }}>
-              Telefone: (11) 9999-9999
+              Telefone: (11) 4002-8922
             </p>
           </div>
         </div>
@@ -47,7 +47,7 @@ function Footer() {
           className="text-center text-secondary"
           style={{ fontSize: "0.9rem" }}
         >
-          © 2026 NexaFlow. Todos os direitos reservados.
+          © 2026 R2D2 Tecnologias. Todos os direitos reservados.
         </div>
       </div>
     </footer>
