@@ -16,6 +16,7 @@ Painel moderno de serviços digitais desenvolvido com React + Vite.
 
 ## Integrantes
 - Demétrio
+- Victor
 
 ## Como executar
 
